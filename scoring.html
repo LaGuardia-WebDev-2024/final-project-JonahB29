@@ -1,0 +1,233 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gymnastics, A Crash Course!</title>
+    <style>
+      h1 {
+        color: rgb(72, 107, 134);
+      }
+      body {
+        background-color: rgb(208, 175, 211);
+      }
+      h2 {
+        color: rgb(72, 107, 134);
+      }
+      h2 {
+        font-size: 28px;
+      }
+      h3 {
+        color: rgb(119, 234, 221);
+      }
+      .gymnast-pics {
+        border: 5px solid #99000b;
+      }
+      p {
+        color: rgb(2, 158, 141);
+      }
+
+      .events-list {
+        color: rgb(67, 74, 156);
+      }
+
+      #artistic-gymnastics {
+        background-color: rgb(188, 104, 196);
+      }
+      #GOAT {
+        color: rgb(221, 119, 80);
+      }
+      #King-Kohei {
+        color: rgb(2, 26, 132);
+      }
+      #glasses {
+        color: rgb(196, 104, 111);
+      }
+      #pbars {
+        color: rgb(131, 7, 7);
+      }
+      #aa {
+        color: rgb(255, 255, 255);
+      }
+      #floor {
+        color: rgb(67, 39, 155);
+      }
+      #uneavens {
+        color: rgb(20, 117, 17);
+      }
+      #cheng {
+        color: rgb(243, 242, 42);
+      }
+      #leaps {
+        color: rgb(255, 194, 249);
+      }
+      h1 {
+        font-family: sour gummy;
+      }
+      #famous-gymnasts {
+        font-size: 28px;
+      }
+      body {
+        margin: 0px;
+      }
+      .navbar ul {
+        list-style-type: none;
+        background-color: rgb(147, 245, 240);
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+      }
+
+      .navbar a {
+        color: rgb(157, 13, 189);
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+      }
+      .navbar a:hover {
+        background-color: rgb(172, 250, 240);
+      }
+      .navbar li {
+        float: left;
+      }
+      .cop {
+        background-color: rgb(194, 162, 215);
+        padding: 1px;
+      }
+      .video-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.vid {
+  width: 45%;
+  background-color: #fefefe;
+  border: 3px solid #ccc;
+  padding: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="basic.html">The Basics</a></li>
+        <li><a href="scoring.html">Scoring</a></li>
+        <li><a href="fame-gym.html">Famous Gymnasts</a></li>
+      </ul>
+    </nav>
+    <div class="cop">
+      <h2>Scoring</h2>
+    </div>
+    <p>
+      There are 2 parts to a gymnastics score, Difficulty and Execution.
+      Difficulty is as it sounds like, how difficult the exercise is. Execution
+      is how well the exercise is competed. The sum of these two scores
+      determine the final score. The
+      <a
+        target="-blank"
+        href="https://www.gymnastics.sport/publicdir/rules/files/en_1.1%20-%20MAG%20CoP%202025-2028.pdf"
+        >Code of Points</a
+      >
+      outines the rules and scoring procedures for gymnastics and is updated
+      every 4 years for the next Olympic quadrennium.
+    </p>
+    <table bgcolor="black" width="770" class="scoring">
+      <thead>
+        <tr bgcolor="grey">
+          <th width="385">Difficulty</th>
+          <th width="385">Execution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr bgcolor="white">
+          <td>
+            <ul style="list-style-type: square">
+              <li>
+                The first component of a gymnastics score is the top 8 most
+                difficult elements in the routine
+              </li>
+              <li>
+                Each element is assigned a value based on its difficulty.
+                <ul>
+                  <li>A=0.1 (least difficult elements)</li>
+                  <li>B=0.2</li>
+                  <li>C=0.3</li>
+                  <li>D=0.4</li>
+                  <li>E=0.5</li>
+                  <li>F=0.6</li>
+                  <li>G=0.7</li>
+                  <li>H=0.8</li>
+                  <li>I=0.9</li>
+                  <li>J=1.0 (most difficult element, only one exists)</li>
+                </ul>
+              </li>
+              <li>
+                The second component of a gymnastics score is connection value
+                abbreviated as CV. This is a bonus of either 0.1 or 0.2 for
+                linking difficult elements together.
+              </li>
+              <li>
+                The third component of a gymnastics score is a 0.5 for
+                fullfilling a composition requirent for a routine. Men have 3
+                composition requirements and a dismount requirement, while women
+                have 4 composition requirements and no dismount requirement.
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul style="list-style-type: square">
+              <li>
+                The execution score starts from a 10.0 and deductions are taken
+                for errors in the routine
+              </li>
+              <li>
+                Deductions range from 0.1 tenth of a point to a full point
+                <ul>
+                  <li>0.1 is for a small error</li>
+                  <li>0.3 is for a medium error</li>
+                  <li>0.5 is for a major error</li>
+                  <li>1.0 is taken for a fall</li>
+                </ul>
+              </li>
+              <li>
+                0.1 - 0.5 can be taken for Neutral deductions ie.
+                <ul>
+                  <li>stepping out of bounds</li>
+                  <li>
+                    not finishing within the required time limit for an exercise
+                  </li>
+                  <li>not saluting the judges</li>
+                  <li>coach spotting during the routine</li>
+                </ul>
+              </li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr />
+      </tbody>
+    </table>
+    <div class ="video-section">
+  
+<h3>Qiu Quiyuan is the Paris Olympic Silver medalist on the uneaven bars! Watch her routine from the Olympic season in action to see how her score was calculated. The 2 vidoes below show how the difficulty (d) score were calculated and the execution (e) score were calculated:</h3>
+<div class="vid">
+  <p>This is a visual of how Qiu's E score would be calculated. This is the performance that won her the silver medal in paris🥈:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sgk6uU0djVU" 
+title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="vid">
+<p>This is a visual of how Qiu's D score would be calculated in real time from a judge watching her routine. This is the performance that won her the Chinese nationals gold medal during the 2024 season 🥇:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/miLQkBxux-g" 
+title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </body>
+</html>
